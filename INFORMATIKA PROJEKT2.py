@@ -123,7 +123,7 @@ while not game_over:                            #pokrećem glavni program dok ig
 					postavljanje_novčića(board, row, col, 1) #trag 1 što će u crtaj_board() značiti da ide crveni novčić
 
 					if pobjeda(board, 1):                                                       #u slučaju pobjede crvenog (4 novčića)
-						natpis = myfont.render("Jedinica pobjedila kume!!", 1, CRVENO)      #preko screena se pojavljuje poruka
+						natpis = myfont.render("Jedinica pobijedila kume!!", 1, CRVENO)      #preko screena se pojavljuje poruka
 						screen.blit(natpis, (40,10))                                        #te se igra zasutavlja
 						game_over = True
 
